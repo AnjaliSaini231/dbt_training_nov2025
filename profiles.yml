@@ -1,0 +1,13 @@
+dbt_training_nov2025:
+  outputs:
+    dev:
+      account: NCMUXXH-PK98502
+      database: Dev
+      password: dbtPassword123
+      role: TRANSFORM
+      schema: BRONZE_AIRBNB
+      threads: 4
+      type: snowflake
+      user: dbt
+      warehouse: COMPUTE_WH
+  target: dev
